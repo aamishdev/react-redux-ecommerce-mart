@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# React-Redux-Ecommerce-mart
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and fully-responsive e-commerce platform built with React and Redux. This project features product listings, a shopping cart, and an intuitive user interface. Leveraging Redux for state management ensures efficient and scalable performance. Ideal for developers looking to explore e-commerce development or enhance their skills with React and Redux. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

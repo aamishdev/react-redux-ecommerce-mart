@@ -1,38 +1,178 @@
-.App {
-  text-align: center;
+/* Navbar */
+
+.navbar-nav a{
+  font-size: 18px;
+}
+.detailsCard{
+    width: 650px;
+    padding: 30px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.082);
+   
+}
+.nav-link.active {
+  border-bottom: 1px solid black; 
+  
+}
+.trash {
+    cursor: pointer;
+    font-size: 22px!important;
+    color: red;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: 'Montserrat', sans-serif !important;
+}
+.p-margins{
+  margin: 0  0 10px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+@media (max-width: 1440px) and (min-width: 1024px) {
+  .card-img {
+    height: 650px;
+  }
+  .container .font-size1{
+    font-size: 45px;
+  }
+  .container .font-size2{
+    font-size: 30px!important;
+  }
+  .card .card-img-top{
+     width: 200px;
+      height: 220px;
+  }
+
+  .pd .productImage{
+    width: 300px;
+       height: 300px;
+  }
+  .pd .p-title{
+   font-size: 35px;
+  }
+  .pd .p-price{
+   font-size: 28px;
+  }
+  .pd .p-text{
+   font-size: 18px;
+  }
+  .pd .p-btn{
+   font-size: 14px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+@media (max-width: 1024px) and (min-width: 650px) {
+  .card-img {
+    height: 350px;
+  }
+  .container .font-size1{
+    font-size: 35px;
+  }
+  .container .font-size2{
+    font-size: 20px!important;
+  }
+  .buttons .filter-font{
+    font-size: 13px!important;
+  }
+  .card .card-img-top{
+    width: 120px;
+     height: 120px;
+ }
+
+
+ .pd .productImage{
+  width: 250px;
+     height: 250px;
+}
+.pd .p-title{
+ font-size: 30px;
+}
+.pd .p-price{
+ font-size: 24px;
+}
+.pd .p-text{
+ font-size: 15px;
+}
+.pd .p-btn{
+ font-size: 13px;
+}
+
+.cart-headings{
+  font-size: 18px;
+}
+.detailsCard{
+  width: 550px;
+
+}
+.cart-image{
+  height: 170px;
+  width: 170px;
+}
+}
+
+@media (max-width: 650px) and (min-width: 270px) {
+  .card-img {
+    height: 300px;
+  }
+  .container .font-size1{
+    font-size:25px;
+  }
+  .container .font-size2{
+    font-size: 16px!important;
+  }
+  .buttons .filter-font{
+    font-size: 10px!important;
+  }
+  .cart-headings{
+    font-size: 16px;
+  }
+  .cart-icon{
+    font-size: 20px!important;
+  }
+}
+@media (max-width: 780px) and (min-width: 270px) {
+ 
+  .card .card-img-top{
+    width: 160px!important;
+     height: 160px!important;
+ }
+ .card-body .card-title{
+  font-size: 18px;
+ }
+ .card-body .card-text{
+  font-size: 16px;
+ }
+ .card-body .buy{
+  font-size: 12px!important;
+ }
+ .mbottom{
+  margin-bottom: 0!important;
+  padding-bottom: 0!important;
+ }
+
+.pd .productImage{
+  width: 200px;
+     height: 200px;
+     margin-bottom: 40px;
+}
+.pd .p-title{
+ font-size: 25px;
+}
+.pd .p-price{
+ font-size: 22px;
+}
+.pd .p-text{
+ font-size: 15px;
+}
+.pd .p-btn{
+ font-size: 13px;
+}
+.detailsCard{
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  width: 100%;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.p-margins{
+  padding-bottom: 15px;
+  margin: 0!important;
+}
 }
